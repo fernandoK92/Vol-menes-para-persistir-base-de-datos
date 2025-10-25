@@ -196,3 +196,14 @@ En la segunda parte, al crear el volumen pgdata y asociarlo al contenedor server
 Al reconectarse con el cliente SQL (TablePlus, DataGrip o pgAdmin) se verifica que la tabla customer y los registros insertados siguen disponibles.
 
 Se demuestra exitosamente la persistencia de datos gracias al uso de volúmenes en Docker, validando la diferencia entre almacenamiento temporal y permanente dentro de contenedores.
+
+## 10. Bibliografias:
+Docker Inc. (2024). Docker Documentation. Recuperado de https://docs.docker.com
+
+PostgreSQL Global Development Group. (2024). PostgreSQL 15 Documentation. Recuperado de https://www.postgresql.org/docs/15/
+
+Turnbull, J. (2018). The Docker Book: Containerization is the New Virtualization (3rd ed.). Turnbull Press.
+
+Mouat, A. (2015). Using Docker: Developing and Deploying Software with Containers. O’Reilly Media.
+
+Merkel, D. (2014). Docker: Lightweight Linux Containers for Consistent Development and Deployment. Linux Journal, (239). Recuperado de https://www.linuxjournal.com/content/docker-lightweight-linux-containers-consistent-development-and-deployment
