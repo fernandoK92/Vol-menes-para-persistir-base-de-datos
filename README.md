@@ -51,8 +51,13 @@ Editor de texto o IDE para redactar el informe (VS Code, Notepad++, etc.).
 Parte 1: Base de datos sin volumen
 
 Crear el contenedor PostgreSQL:
+
+
 <img width="589" height="29" alt="image" src="https://github.com/user-attachments/assets/4f325309-3a88-40df-9b15-a1841669fc69" />
+
+
 Conectarse con el cliente SQL (por ejemplo yo utilize TablePlus).
+
 
 Host: localhost
 
@@ -62,41 +67,66 @@ User: mi_user
 
 Password: mi_pass
 
+
+
 <img width="589" height="399" alt="image" src="https://github.com/user-attachments/assets/9378eabd-74ac-4179-8874-1c9c400128e4" />
 
+
+
 Crear la base de datos test.
+
 <img width="589" height="377" alt="image" src="https://github.com/user-attachments/assets/26f6ead2-613c-4f2e-8a96-252ad8f1e8de" />
 
+
 Dentro de test, crear la tabla customer:
+
 <img width="589" height="383" alt="image" src="https://github.com/user-attachments/assets/98eabfc4-d99b-4736-b152-b5aef47f0e4a" />
 
 Insertar un registro:
+
 <img width="589" height="396" alt="image" src="https://github.com/user-attachments/assets/a0e072d7-b138-494c-a5fa-22c20eb53b31" />
 
 Verificar los datos:
+
 <img width="589" height="386" alt="image" src="https://github.com/user-attachments/assets/5d1cbacd-e76c-4afc-b65e-0d211db7e054" />
 
 luego
 Detener y eliminar el contenedor:
+
 <img width="490" height="62" alt="image" src="https://github.com/user-attachments/assets/a3ebe7ba-fd70-4f79-9a34-f5b1180ad2de" />
+
+
+
 <img width="484" height="62" alt="image" src="https://github.com/user-attachments/assets/2d93ceed-24ce-4617-8c70-dfef1d8be996" />
 
 y luego volvemoa crear 
+
+
 <img width="589" height="29" alt="image" src="https://github.com/user-attachments/assets/d69c5769-82bc-4c06-b3cd-498dbffedbd8" />
 
 y conectamos con table plus y verificamos que no exista la base de datos test 
 
+
 <img width="589" height="388" alt="image" src="https://github.com/user-attachments/assets/09404226-f4c0-4f7d-b0ee-144bfb0daaa4" />
 
+
 Parte 1 finalizada 
+
+
 
 ##Parte 2: Base de datos con volumen
 
 Crear un volumen persistente:
+
+
 <img width="927" height="223" alt="image" src="https://github.com/user-attachments/assets/1fe939bc-ebaf-4dd4-ad94-4b7c0a3dcdba" />
 
+
 Crear el contenedor PostgreSQL asociado al volumen:
+
+
 <img width="1440" height="72" alt="image" src="https://github.com/user-attachments/assets/ad2a952f-a13a-427a-a467-7d216976bed2" />
+
 
 Conectarse con el cliente SQL (por ejemplo, TablePlus).
 
@@ -107,33 +137,51 @@ Port: 5434
 User: mi_user
 
 Password: mi_pass
+
+
 <img width="647" height="677" alt="image" src="https://github.com/user-attachments/assets/75b074b9-388d-4f49-b8ad-93c01969a52f" />
 
 Crear la base de datos test.
+
+
 <img width="712" height="450" alt="image" src="https://github.com/user-attachments/assets/8073f17f-ebf4-47b9-9594-aa3486b0e257" />
 
 Dentro de test, crear la tabla customer:
 
+
 <img width="589" height="401" alt="image" src="https://github.com/user-attachments/assets/55f5726e-cb81-4386-88af-c0760491febd" />
 
 Insertar un registro y verificar datos :
+
+
 <img width="1106" height="717" alt="image" src="https://github.com/user-attachments/assets/1cc21c66-68dd-4389-9773-e9e43cb610b4" />
 
 Detener y eliminar el contenedor:
+
+
 <img width="591" height="70" alt="image" src="https://github.com/user-attachments/assets/6b2be0a2-3613-4029-8d6a-b7cbd33248cb" />
+
+
 
 <img width="573" height="72" alt="image" src="https://github.com/user-attachments/assets/bb2f4dde-14ed-44bc-b630-855c61331ed4" />
 
+
 Volver a crear el contenedor con el mismo volumen: 
+
 
 <img width="1443" height="71" alt="image" src="https://github.com/user-attachments/assets/e5dadff1-dada-4a6a-ae1b-879e9e717d8e" />
 
+
 y verificamos que siga test en tableplus :
+
 <img width="902" height="621" alt="image" src="https://github.com/user-attachments/assets/7f7d329c-7497-4cfd-968d-444377c79806" />
+
 
 <img width="1090" height="720" alt="image" src="https://github.com/user-attachments/assets/7994741c-5d9c-4d2d-bfd2-abe830dbb58a" />
 
+
 <img width="1092" height="687" alt="image" src="https://github.com/user-attachments/assets/439a4912-a7a9-4e82-8f20-e398390053d1" />
+
 
 y listo acbariamos con la practica 
 
